@@ -1,11 +1,11 @@
 
-# 🍔 Burger Master — Terminal de Vendas
+#  Burger Master — Terminal de Vendas
 
 Aplicação desktop desenvolvida em Python para simular o gerenciamento de pedidos de uma hamburgueria, com cardápio interativo, carrinho de compras e cálculo automático do valor total.
 
 O **Burger Master** foi desenvolvido com foco em simplicidade, organização visual e praticidade no atendimento, reunindo em uma única interface as principais etapas da montagem e confirmação de um pedido.
 
-## 📋 Sumário
+##  Sumário
 
 - [Sobre o projeto](#-sobre-o-projeto)
 - [Funcionalidades](#-funcionalidades)
@@ -20,7 +20,7 @@ O **Burger Master** foi desenvolvido com foco em simplicidade, organização vis
 - [Contribuição](#-contribuição)
 - [Licença](#-licença)
 
-## 📖 Sobre o projeto
+##  Sobre o projeto
 
 O Burger Master é um sistema de vendas com interface gráfica desenvolvido para representar o fluxo básico de atendimento de uma hamburgueria.
 
@@ -28,7 +28,7 @@ A aplicação permite visualizar os produtos disponíveis, adicionar itens ao ca
 
 O projeto também demonstra conceitos importantes de desenvolvimento com Python, como programação orientada a objetos, criação de interfaces gráficas, manipulação de listas e dicionários, tratamento de eventos e atualização dinâmica de componentes visuais.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 - **Cardápio interativo:** exibe os produtos organizados por categorias, com nomes e preços.
 - **Adição de produtos:** permite incluir itens no carrinho por meio de botões de ação.
@@ -40,7 +40,7 @@ O projeto também demonstra conceitos importantes de desenvolvimento com Python,
 - **Interface personalizada:** utiliza tema escuro, cores de destaque e componentes visuais organizados.
 - **Preparação para o próximo atendimento:** limpa o carrinho após a confirmação do pedido.
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 | Tecnologia | Aplicação no projeto |
 |---|---|
@@ -50,7 +50,7 @@ O projeto também demonstra conceitos importantes de desenvolvimento com Python,
 
 O projeto utiliza o CustomTkinter para criar uma interface desktop com aparência moderna, mantendo a lógica de funcionamento em um único arquivo Python.
 
-## 📁 Estrutura do projeto
+##  Estrutura do projeto
 
 ```text
 PythonProject/
@@ -75,7 +75,7 @@ Contém a implementação da aplicação, incluindo:
 
 Os dados do cardápio e do pedido são mantidos em estruturas de dados na memória durante a execução.
 
-## 💻 Pré-requisitos
+##  Pré-requisitos
 
 Antes de executar o projeto, certifique-se de ter:
 
@@ -85,7 +85,7 @@ Antes de executar o projeto, certifique-se de ter:
 
 A biblioteca `customtkinter` precisa ser instalada. O módulo `tkinter` é utilizado pela aplicação para exibir mensagens e, dependendo da distribuição do Python, pode exigir instalação separada.
 
-## 🚀 Instalação e execução
+##  Instalação e execução
 
 ### 1. Clone o repositório
 
@@ -137,7 +137,7 @@ python3 interface.py
 
 Após a inicialização, a janela do Burger Master será aberta com o cardápio e o painel do carrinho.
 
-## 🛒 Como utilizar
+##  Como utilizar
 
 1. **Explore o cardápio:** navegue pelas categorias disponíveis e consulte os preços.
 2. **Adicione produtos:** clique no botão de adição correspondente ao item desejado.
@@ -150,7 +150,7 @@ Caso queira cancelar a seleção antes de finalizar, utilize a opção `Limpar C
 
 > **Observação:** selecionar uma forma de pagamento não significa que uma transação financeira será realizada. O sistema apenas registra a opção escolhida durante a execução e apresenta uma mensagem de confirmação.
 
-## 🍟 Cardápio disponível
+##  Cardápio disponível
 
 Os produtos são definidos diretamente no código e estão organizados nas seguintes categorias:
 
@@ -163,7 +163,7 @@ Os produtos são definidos diretamente no código e estão organizados nas segui
 
 Os preços são definidos em reais (R$) e podem ser alterados diretamente no dicionário `menu_itens`, localizado no arquivo `interface.py`.
 
-## ⚠️ Limitações atuais
+##  Limitações atuais
 
 O projeto implementa um fluxo básico de vendas para fins demonstrativos. Na versão atual:
 
@@ -177,7 +177,7 @@ O projeto implementa um fluxo básico de vendas para fins demonstrativos. Na ver
 
 Essas limitações delimitam o escopo atual da aplicação e indicam oportunidades para futuras evoluções.
 
-## 🔮 Possíveis melhorias
+##  Possíveis melhorias
 
 - **Persistência de dados:** integrar SQLite ou outro banco de dados para armazenar produtos, pedidos e vendas.
 - **Gestão de produtos:** permitir cadastrar, editar e remover itens diretamente pela interface.
@@ -189,7 +189,7 @@ Essas limitações delimitam o escopo atual da aplicação e indicam oportunidad
 - **Organização do código:** separar interface, regras de negócio e persistência em módulos independentes.
 - **Distribuição da aplicação:** criar um executável para facilitar a instalação em computadores sem um ambiente Python configurado.
 
-## 🤝 Contribuição
+##  Contribuição
 
 Contribuições são bem-vindas para aprimorar a interface, corrigir problemas e adicionar funcionalidades.
 
@@ -211,11 +211,11 @@ Contribuições são bem-vindas para aprimorar a interface, corrigir problemas e
 
 Para mudanças maiores, recomenda-se abrir uma issue antes de iniciar o desenvolvimento.
 
-## 📄 Licença
+##  Licença
 
 Nenhum arquivo de licença foi identificado na estrutura analisada. Antes de definir os termos de uso, distribuição e modificação do projeto, recomenda-se adicionar um arquivo `LICENSE` com a licença escolhida pelo responsável pelo repositório.
 
-## 👨‍💻 Autor
+##  Autor
 
 Desenvolvido por **Emite028**.
 
